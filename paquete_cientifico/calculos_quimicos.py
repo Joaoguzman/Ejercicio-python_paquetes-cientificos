@@ -1,15 +1,19 @@
+#funcion molaridad
 def molaridad(moles, volumen_disolucion):
     molar=moles/volumen_disolucion
     return molar
 
+#funcion molalidad
 def molalidad(moles, litros_solvente):
     molal=moles/litros_solvente
     return molal
 
+#funcion molaridad
 def normalidad(equivalentes, litros_solvente1):
     n=equivalentes*litros_solvente1
     return n
 
+#funcion densidad quimica
 def densidad(gramos_disolucion, litros_disolucion):
     d=gramos_disolucion/litros_disolucion
     return d
