@@ -1,6 +1,6 @@
 import bs4
 from requests import get, post
-import utils
+import paquete_cientifico
 
 a=1
 b=9

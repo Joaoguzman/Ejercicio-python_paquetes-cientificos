@@ -7,7 +7,7 @@ def mc2(m):
     return E
 
 #funcion que calcula la densidad
-def densidad (masa, volumen):
+def densidad_fisica(masa, volumen):
     densidad=masa/volumen
     return densidad
 

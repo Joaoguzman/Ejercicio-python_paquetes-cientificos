@@ -14,7 +14,7 @@ def normalidad(equivalentes, litros_solvente1):
     return n
 
 #funcion densidad quimica
-def densidad(gramos_disolucion, litros_disolucion):
+def densidad_quimica(gramos_disolucion, litros_disolucion):
     d=gramos_disolucion/litros_disolucion
     return d
 
