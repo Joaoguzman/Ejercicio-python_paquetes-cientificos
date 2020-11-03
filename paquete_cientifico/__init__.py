@@ -1,8 +1,8 @@
-
-<<<<<<< HEAD
-#importando funciones desde calculos_estadisticos
-from .calculos_estadisticos import promedio, desviacion_estandar, varianza, mediana
-=======
+# Calculos físicos
 from .calculos_fisicos import mc2, densidad, fuerza, trabajo_fisico
->>>>>>> calculos_fisicos
 
+#Calculos estadísticos
+from .calculos_estadisticos import promedio, desviacion_estandar, varianza, mediana
+
+#Calculos quimicos 
+from .calculos_quimicos import molalidad, molaridad, densidad, normalidad
